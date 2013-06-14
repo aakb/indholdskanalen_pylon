@@ -12,7 +12,7 @@ address = system.args[1];
 output = system.args[2];
 
 // Set the capture size to full HD.
-page.viewportSize = { width: 1920, height: 1080 };
+page.viewportSize = { width: 256, height: 384 };
 
 // Check if PDF should be rendered.
 if (system.args.length === 3 && system.args[1].substr(-4) === ".pdf") {

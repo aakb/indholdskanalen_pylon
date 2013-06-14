@@ -36,7 +36,7 @@ function ik_slides_image_default_styles() {
   $styles['slide_preview_large'] = array(
     'name' => 'slide_preview_large',
     'effects' => array(
-      3 => array(
+      2 => array(
         'label' => 'Scale',
         'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
         'effect callback' => 'image_scale_effect',
@@ -46,7 +46,7 @@ function ik_slides_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '1440',
+          'width' => '256',
           'height' => '',
           'upscale' => 0,
         ),
@@ -59,7 +59,7 @@ function ik_slides_image_default_styles() {
   $styles['slide_preview_medium'] = array(
     'name' => 'slide_preview_medium',
     'effects' => array(
-      4 => array(
+      3 => array(
         'label' => 'Scale',
         'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
         'effect callback' => 'image_scale_effect',
@@ -69,7 +69,7 @@ function ik_slides_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '960',
+          'width' => '180',
           'height' => '',
           'upscale' => 0,
         ),
@@ -82,7 +82,7 @@ function ik_slides_image_default_styles() {
   $styles['slide_preview_small'] = array(
     'name' => 'slide_preview_small',
     'effects' => array(
-      5 => array(
+      4 => array(
         'label' => 'Scale',
         'help' => 'Scaling will maintain the aspect-ratio of the original image. If only a single dimension is specified, the other dimension will be calculated.',
         'effect callback' => 'image_scale_effect',
@@ -92,7 +92,7 @@ function ik_slides_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale',
         'data' => array(
-          'width' => '192',
+          'width' => '160',
           'height' => '',
           'upscale' => 0,
         ),

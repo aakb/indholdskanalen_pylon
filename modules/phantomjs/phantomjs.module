@@ -63,7 +63,7 @@ function phantomjs_admin_form() {
     '#type' => 'textfield',
     '#required' => TRUE,
     '#title' => t('PhantomJS capture script'),
-    '#description' => t('The script used by PhantomJS to capture the screen. It captures full HD images (1920 x 1080).'),
+    '#description' => t('The script used by PhantomJS to capture the screen. It captures images in the size of 256 x 384 (Infostand resolution).'),
     '#default_value' => variable_get('phantomjs_script', drupal_get_path('module', 'phantomjs') . '/js/phantomjs_capture.js'),
   );
 

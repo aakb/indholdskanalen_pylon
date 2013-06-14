@@ -42,8 +42,8 @@ function ik_channels_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '1920',
-          'height' => '1080',
+          'width' => '256',
+          'height' => '384',
         ),
         'weight' => '1',
       ),
