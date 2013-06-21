@@ -209,9 +209,9 @@ var IK = (function() {
     }
 
     // animate the progress bar
-    $('#progress').stop(true,true);
-    $('#progress').css('width','0px');
-    $('#progress').animate({width: '100%'}, this.get('exposure'), 'easeInSine');
+    //$('#progress').stop(true,true);
+    //$('#progress').css('width','0px');
+    //$('#progress').animate({width: '100%'}, this.get('exposure'), 'easeInSine');
 
     // Send log message.
     log('Slide render: ' + this.get('title') + ' (exposure: ' + this.get('exposure') + ')');

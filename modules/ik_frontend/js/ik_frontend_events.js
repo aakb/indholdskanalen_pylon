@@ -20,7 +20,7 @@
   var resizer = function () {
     var width = $(window).width();
     var height = $(window).height();
-    var aspectRatio = 1980 / 1080;
+    var aspectRatio = 256 / 384;
     $('.box_skitter').width(width).height(height);
     $('.container_skitter').width(width).height(height);
     if ( (width / height) < aspectRatio ) {
