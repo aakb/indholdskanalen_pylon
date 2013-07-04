@@ -13,7 +13,7 @@ var IK = (function() {
   var settings = {
     debug : false,
     animateChange : true,
-    fullscreen : true,
+    fullscreen : false,
     orgImgAspect : [256, 384]
   };
   var channel;

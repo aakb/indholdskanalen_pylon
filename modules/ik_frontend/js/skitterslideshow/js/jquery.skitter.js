@@ -25,7 +25,7 @@
 	};
 
 	var defaults = {
-		orgImgAspect: [1980, 1080],
+		orgImgAspect: [256, 384],
 		velocity: 				1,
 		interval: 				2500,
 		animation: 				'',
