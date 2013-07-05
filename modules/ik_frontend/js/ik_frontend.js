@@ -130,6 +130,7 @@ var IK = (function() {
       label: false,
       stop_over: false,
       interval: ((self.get('exposure') / self.get('mediacount')) - 600),
+      //interval: 10000,
       structure: '<div class="container_skitter">'
                   + '<div class="image">'
                     + '<a href=""><img class="image_main" /></a>'
@@ -167,16 +168,20 @@ var IK = (function() {
     }
 
     // Ensure that images is show while skitter loads.
-    $('.box_skitter ul', to).show();
+    //$('.box_skitter ul', to).show();
 
     // Insert the new slide behind the current one and fade the current out.
     from.css('z-index', 2);
     to.css('z-index', 1);
+    to.css('display', 'none');
     $('#slide-container').append(to);
-    from.fadeOut(1500, function () {
+    from.fadeOut(2500, function () {
       // Remove the old slide.
       from.remove();
       self.startSkitter();
+      to.fadeIn(2500, function () {
+        
+      });
     });
   };
 

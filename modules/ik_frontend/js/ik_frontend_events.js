@@ -17,7 +17,7 @@
   });*/
 
   // Resize slide image when browser window is resized.
-  /*var resizer = function () {
+  var resizer = function () {
     var width = $(window).width();
     var height = $(window).height();
     var aspectRatio = 256 / 384;
@@ -34,6 +34,6 @@
     }
 
   };
-  $(window).on('resize', resizer);*/
+  $(window).on('resize', resizer);
 
 })(jQuery);

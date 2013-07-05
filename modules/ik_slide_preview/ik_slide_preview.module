@@ -555,7 +555,7 @@ function ik_slide_preview_build_slide($entity) {
  *  Value from color theme field.
  */
 function ik_slide_select_color_theme($value) {
-  switch ($value) {
+  /*switch ($value) {
     case 1:
       $color_theme = 'white-green';
       break;
@@ -574,5 +574,6 @@ function ik_slide_select_color_theme($value) {
     default:
       $color_theme = 'white-green';
   }
-  return $color_theme;
+  return $color_theme;*/
+  return 'white-black';
 }
