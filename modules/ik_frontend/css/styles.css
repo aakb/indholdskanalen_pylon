@@ -268,8 +268,8 @@ h6 {
     position: absolute;
     top: 0;
     left: 0;
-    height: 256px;
-    width: 384px; }
+    width: 256px;
+    height: 384px; }
     /* line 87, ../sass/_layouts.scss */
     .slide .image-container a {
       pointer-events: none;
